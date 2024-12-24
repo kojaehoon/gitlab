@@ -1,0 +1,13 @@
+.content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .tag {
+    font-size: 30px;
+    margin: 10px 5px -10px 5px;
+  }
+
+  .description {
+  margin: 0 0 10px 0;
+}

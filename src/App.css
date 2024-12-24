@@ -1,0 +1,71 @@
+html,
+body {
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+h2 {
+  margin-left : 30px;
+}
+
+h3 {
+  margin: 0px 0 0 -40px;
+}
+
+hr {
+  margin: 20px 0 20px  0;
+}
+
+.Tags {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 120px;
+  text-align: center;
+}
+
+.title {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+}
+
+#tagbutton {
+  margin: 10px;
+  background-color: mistyrose;
+  border: 1px solid purple
+}
+
+.Main {
+  position: absolute;
+  top: 180px;
+}
+
+.pdf {
+  position: absolute;
+  display: block;
+  right: 10px;
+  top: 20px;
+  width: 150px;
+  margin-right: 20px;
+  background-color: skyblue;
+  border: none;
+}
+
+.pdf:hover {
+  background-color: coral;
+  color: whitesmoke;
+}
+
+.pdf-style {
+    font-size: 13px !important;
+    hr {
+      margin-right: 35px;
+    }
+}
+
+@media screen {
+  .pdf-style {
+    font-size: inherit; /* Reset font size for normal screen display */
+  }
+}
